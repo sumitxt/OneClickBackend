@@ -1,6 +1,6 @@
 @echo off
 start cmd /c npm init --y
-start cmd /c npm i express nodemon jsonwebtoken mongoose express-rate-limit hpp xss-clean dotenv
+start cmd /c npm i express nodemon cors jsonwebtoken mongoose express-rate-limit express-mongo-sanitize helmet hpp xss-clean dotenv
 type nul > index.js
 type nul > app.js
 type nul > config.env
